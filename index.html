@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다애의 인물사전</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        .title {
+            text-align: center;
+            letter-spacing: .4em;
+            font-size: 40px;
+        }
+
+        .wrap {
+            margin: 10px auto 0px auto;
+            width: 400px;
+
+        }
+
+        .photo {
+            width: 400px;
+            height: 450px;
+
+            border-radius: 20px;
+
+            background-image: url(daaephoto.png);
+            background-position: center;
+            background-size: cover;
+            
+
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+
+            text-align: right; /* 텍스트를 오른쪽 정렬 */
+            padding-top: 5px;
+            padding-right: 15px;
+            box-sizing: border-box;
+        }
+
+        .profile {
+            font-size: 17px;
+        }
+
+        .profile>p {
+            text-indent: -15px;            /* 첫 줄을 왼쪽으로 이동 */
+            padding-left: 15px;            /* 전체 단락을 오른쪽으로 이동 */
+            line-height: 1.5;
+        }
+
+        .profile>p>button {
+            background-color: rgb(207, 125, 125);
+            box-shadow: 3px 3px 5px 0px rgb(172, 172, 172);
+
+            width: 380px;
+            padding: 5px 3px 5px 3px;
+
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            cursor: grab;
+        }
+
+        .profile>p>button:hover {
+            background-color: rgb(159, 117, 117);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">BIOGRAPHY</h1>
+
+    <div class="wrap">
+        <div class="photo">
+            최다애 CHOI DA AE
+        </div>
+    
+        <div class="profile">
+            <p><span style="color: gray; font-weight: bold;">생년월일</span>
+                <br>1993년 10월 22일
+            </p>
+
+            <p><span style="color: gray; font-weight: bold;">대표업적</span>
+                <br>2028년 스키 라이딩 총 거리 500km 달성
+                <br>2042년 전라북도교육청 우수 사서교사 선정
+            </p>
+
+            <p><span style="color: gray; font-weight: bold;">연구자료</span>
+                <br><button onclick="window.open('./article.html')">디지털 도서관의 전망</button>
+            </p>
+            
+            <p><span style="color: gray; font-weight: bold;">추천도서</span>
+                <br><button onclick="window.open('https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=287562436&start=slayer')">도서관에서 생긴 일</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- http://blossomenter.com/actors/lee_sowon/ -->
